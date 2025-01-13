@@ -1,0 +1,24 @@
+.container
+{
+ max-width:1000px;
+ width:100%;
+ margin:0 auto;
+ font-size: 20px;
+ margin-top: 0 ;
+}
+#about{
+  /* position:relative;
+  top:50px; */
+  text-align: center;
+  float:left;
+
+}
+#about h1{
+  font-weight: 800;
+  font-size:40px;
+ 
+  text-wrap: 50px;
+}
+#imge{
+  margin-top:150px;
+}

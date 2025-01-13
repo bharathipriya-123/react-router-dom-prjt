@@ -1,0 +1,27 @@
+.navbar
+{
+    /* border:1px solid black; */
+    display: flex;
+    /* margin-bottom: 200px; */
+    align-items: center;
+}
+ul li{
+    display:inline-block;
+   margin-left: 150px;
+   font-size: 20px;
+
+}
+button{
+    margin-left: 200px;
+    background-color: #333;
+    color:white;
+    padding:12px 25px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+nav a.active
+{
+    text-decoration: none;
+    color:aqua;
+   font-weight: bolder;
+}
