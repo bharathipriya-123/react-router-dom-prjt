@@ -1,11 +1,9 @@
-import { useState } from 'react'
+
 import './App.css'
-import NavBar from './components/NavBar';
-import {Routes,Route, createBrowserRouter, createRoutesFromElements, RouterProvider} from 'react-router-dom';
+import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider} from 'react-router-dom';
 import Product from './components/Product';
 import Home from './components/Home';
 import About from './components/About';
-import Contact from './components/Contact';
 import RootLayout from './layout/RootLayout';
 import Login from './components/Login';
 import ContactLayout from './layout/ContactLayout';
@@ -33,7 +31,7 @@ function App() {
           <Route path='login' element={<Login/>}/>
           <Route path='*' element={<NotFound/>}/>
           <Route path="users" element={<UserLayout/>}>
-          {/* loader paramater for loading ther partivcular component  after loading thticular component will run par*/}
+         
           {/* before loading the uses componenent the loader will call after loading it will render the component */}
           <Route index element={<Users/>} loader={userLoader}/>
           {/* //:params */}
